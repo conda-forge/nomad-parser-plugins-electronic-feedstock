@@ -1,5 +1,5 @@
 {% set name = "nomad-parser-plugins-electronic" %}
-{% set version = "1.0.10" %}
+{% set version = "1.0.14" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/nomad_parser_plugins_electronic-{{ version }}.tar.gz
-  sha256: f9229ad8e1cf34ae853d6ef912909bc1f3137b7ca1980eea8284244defd17eaa
+  sha256: 62b13fb6453d7d2dd7de300a6c44b5f3099b38501b47a000177ca8316481c25a
 
 build:
   noarch: python
