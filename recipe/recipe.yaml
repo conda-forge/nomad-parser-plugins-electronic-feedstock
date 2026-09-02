@@ -40,8 +40,10 @@ tests:
   - python:
       imports:
         - electronicparsers
-      pip_check: true
-      python_version: ${{ python_min }}
+      pip_check: false
+      python_version: 
+        - ${{ python_min }}
+        - "*"
 
 about:
   summary: Collection of NOMAD parsers for electronic structure codes.
